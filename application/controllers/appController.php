@@ -24,8 +24,10 @@ class appController extends CI_Controller {
 		$this->load->view('index');
 		$this->load->view('footer');
 	}
-//	public function cargarasiento()
-//	{
-//		$this->load->view('cargarasiento');
-//	}
+	public function jquery()
+	{
+		$this->load->view('headers');
+		$this->load->view('jquery/jquery');
+		$this->load->view('footer');
+	}
 }
